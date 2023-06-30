@@ -11,6 +11,8 @@ const ZtodoInput = ({addTodo}) => {
         prop[e.target.name] = e.target.value
 
         setProp({ ...prop })
+
+        console.log(prop)
     }
 
     const add = () => {

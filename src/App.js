@@ -1,8 +1,10 @@
 import Counter from "./components/Counter";
 import Counter2 from "./components/Counter2";
-import Kiosk from "./components/Kiosk";
+import Kiosk2 from "./components/kiosk2";
+import ProductList from "./components/kiosk2/ProductList";
 import Todo from "./components/todo";
 import TodoInput from "./components/todo/TodoInput";
+import Todo1 from "./components/todo1";
 import ZCounter from "./components/zcounter";
 import ZKiosk from "./components/zkiosk";
 import Ztodo from "./components/ztodo";
@@ -22,7 +24,10 @@ function App() {
 
       <div>
 
-        <Ztodo></Ztodo>
+        <Todo1></Todo1>
+      {/* <Kiosk2></Kiosk2> */}
+
+        {/* <Ztodo></Ztodo> */}
 
         {/* <Todo></Todo> */}
         
