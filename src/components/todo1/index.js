@@ -52,7 +52,7 @@ const Todo1 = () => {
 
     const modify = (modifiedTodo) => {
 
-        // 얕은 복사
+        // 얕은 복사이기 때문에 filter 결과값이 todos를 참조한다.
         const target = todos.filter(todo => todo.tno === modifiedTodo.tno)[0]
 
         target.title = modifiedTodo.title
